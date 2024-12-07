@@ -5,7 +5,7 @@ import photo1 from '../../assets/certificate1.png'
 import certificate2 from '../../assets/certificate2.png'
 const Services = () => {
     return (
-        <div className='services'>
+        <div id="services" className='services'>
             <div className='services-title'>
                 <h1>Certifications</h1>
                 <img src={theme_pattern} alt="" />

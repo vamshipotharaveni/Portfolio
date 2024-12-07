@@ -1,0 +1,44 @@
+.mywork{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.work img{
+    height: 250px;
+    width:400px;
+    border-radius: 15px;
+}
+.mywork-container{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 40px;
+    /* width: 70%; */
+
+}
+.mywork-title{
+    margin-top: 80px;
+    position: relative;
+    margin-bottom: 80px;
+}
+.mywork-title img{
+    height: 60px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    z-index:-1;
+}
+.work{
+    border: 3px solid black;
+    transition: 0.6s;
+    border-radius: 15px;
+}
+.work:hover{
+    transform: scale(1.05);
+    border: 3px solid rgb(252, 4, 186);
+    border-radius: 15px;
+
+}

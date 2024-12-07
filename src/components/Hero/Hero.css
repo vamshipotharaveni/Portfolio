@@ -60,3 +60,11 @@
 .hero-resume:hover{
     border-color: #b415ff;
 }
+.download-btn{
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}

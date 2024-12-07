@@ -23,3 +23,61 @@
 .nav-connect:hover{
     transform:scale(1.05) ;
 }
+.navbar img{
+    height: 90px;
+    border-radius: 80px;
+    width: 100px;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+    height: 0.0000005%;
+    width:100%
+} 
+.nav-menu li{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.anchor-link{
+    text-decoration: none;
+    color:white;
+}
+
+/* @media(max-width:760px){
+    .navbar{
+        margin:20px 50px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right:30px;
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top:30px;
+        left: 290px;
+        width: 30px;
+      
+    }
+    .nav-menu{
+           position: fixed;
+            flex-direction: column;
+            align-items: center;
+            top:0;
+            gap:10px;
+            background-color: #1f0016;
+            width:350px;
+            height:100px;
+            z-index:2;
+            transition: right 0.5s;
+            right: -350px;
+
+
+    }
+} */
