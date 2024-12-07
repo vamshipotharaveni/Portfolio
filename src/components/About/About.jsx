@@ -16,8 +16,8 @@ const About = () => {
                 </div>
                 <div className='about-right'>
                     <div className='about-para'>
-                        <p>How To Create Portfolio Website In React JS | Complete React JS Website Project Tutorial 2024 </p>
-                        <p>How To Create Portfolio Website In React JS | Complete React JS Website Project Tutorial 2024</p>
+                        <p>I’m Vamsi Potarveni, a passionate and detail-oriented developer with a strong foundation in Java, Python, and web development technologies like HTML, CSS, and JavaScript.</p>
+                        <p>I enjoy solving complex problems through programming and have worked on diverse projects like lung cancer detection using Python and interactive games like Tic-Tac-Toe using Java</p>
                     </div>
                     <div className='about-skills'>
                         <div className='about-skill'>
