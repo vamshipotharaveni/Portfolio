@@ -14,7 +14,7 @@ const Hero = () =>{
                 <div className='hero-connect'>
                     <AnchorLink  className='anchor-link' offset={50} href='#contact'>connect with me<p onClick={()=>setmenu("contact")}></p></AnchorLink>
                 </div>
-                <div className='hero-resume'><a href="src/assets\Resume (3).pdf" download>
+                <div className='hero-resume'><a href="https://drive.google.com/file/d/1ynZE9ZDCRYfmG_60wT9_nDnHJgzuup96/view?usp=sharing" download>
   <button className="download-btn">Download Resume</button>
 </a></div>
             </div>
