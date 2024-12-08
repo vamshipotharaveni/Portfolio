@@ -51,7 +51,8 @@ const Contact = () => {
                         <div className='contact-detail'>
                           
                                 
-                        <a href="https://instagram.com/yourprofile" target="_blank" class="instagram-link">
+                        <a href="https://instagram.com/
+_vamshi_yadav__001" target="_blank" class="instagram-link">
   <i class="fab fa-instagram"></i>
   <span>Instagram</span>
 </a>
