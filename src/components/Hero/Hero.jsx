@@ -9,7 +9,7 @@ const Hero = () =>{
         <div id="home" className='hero'>
             <img src={profile_img} alt="" />
             <h1><span>I'm Vamshi potharaveni </span>am a Web developer</h1>
-            <p>I had a greate Knowlege on the front end and prior knowledge on the back end</p>
+            <p>I had a greate Knowlege on the front end and good knowledge on the back end</p>
             <div className='hero-action'>
                 <div className='hero-connect'>
                     <AnchorLink  className='anchor-link' offset={50} href='#contact'>connect with me<p onClick={()=>setmenu("contact")}></p></AnchorLink>
