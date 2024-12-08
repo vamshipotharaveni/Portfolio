@@ -136,3 +136,141 @@
     color: #d11392;
     
 }
+
+
+
+/* Media Query for tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .contact {
+        margin: 80px 50px 20px 50px;
+        gap: 60px;
+    }
+
+    .contact-title h1 {
+        font-size: 38px;
+    }
+
+    .contact-title img{
+        height: 90%;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        align-items: start;
+        padding-left: 5%;
+        gap: 50px;
+    }
+
+    .contact-left h1 {
+        font-size: 35px;
+    }
+
+    .contact-left p {
+        max-width: 450px;
+        font-size: 14px;
+    }
+
+    .contact-details {
+        font-size: 16px;
+    }
+
+    .contact-right input {
+        width: 450px;
+    }
+
+    .contact-right textarea {
+        width: 450px;
+    }
+}
+
+/* Media Query for mobile screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .contact {
+        margin: 60px 20px 20px 20px;
+        gap: 40px;
+    }
+
+    .contact-title h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .contact-section {
+        gap: 30px;
+    }
+
+    .contact-left h1 {
+        font-size: 28px;
+    }
+
+    .contact-left p {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .contact-details {
+        font-size: 14px;
+    }
+
+    .contact-right input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .contact-right textarea {
+        width: 100%;
+    }
+
+    .contact-submit {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+/* Media Query for small mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .contact {
+        margin: 40px 10px 10px 10px;
+        gap: 30px;
+    }
+
+    .contact-title h1 {
+        font-size: 24px;
+    }
+
+    .contact-left h1 {
+        font-size: 24px;
+    }
+   
+    .contact-left p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .contact-details {
+        font-size: 12px;
+    }
+
+    .contact-right input {
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .contact-right textarea {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .contact-submit {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+
+    .instagram-link {
+        font-size: 14px;
+    }
+
+    .instagram-link i {
+        font-size: 28px;
+    }
+}
