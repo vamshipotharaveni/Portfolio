@@ -106,7 +106,7 @@
     }
     .navbar img {
         margin-top: 0px;
-        height: 40px;
+        height: 30px;
     }
 
     .nav-menu.open {
@@ -116,7 +116,7 @@
 
 .navbar {
     height: 35px;
-    width: 76%;
+    width: 73%;
 }
 
     .nav-menu li {
