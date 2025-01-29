@@ -42,7 +42,22 @@
     border-radius: 15px;
 
 }
+.btn-projects {
+    transition: transform 0.3s ease-in-out;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 1.2%;
+    border: none;
+    border-radius: 15%;
+    font-weight: 700;
+    font-size: 100%;
+    background:linear-gradient(55deg, #fcdc68, #a603ec);
+    cursor: pointer;
+}
 
+.btn-projects:hover {
+    transform: scale(1.2);
+}
 
 
 

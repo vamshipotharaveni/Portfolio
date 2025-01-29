@@ -25,8 +25,16 @@ const Mywork = () =>{
             <div className='work'>
                 <img src={work1}/>
             </div>
+            
         </div>
-        </div>
+        <button 
+    className="btn-projects" 
+    onClick={() => window.location.href = 'https://visit-projects.netlify.app/'}
+>
+    View Projects 🡺
+</button>       
+
+ </div>
     )
 }
 export default Mywork
